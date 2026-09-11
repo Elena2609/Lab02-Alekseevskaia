@@ -83,3 +83,31 @@ bool wasSuccessful = int.TryParse(booksInput, out int booksCount);
 Console.WriteLine($"Удалось преобразовать: {wasSuccessful}");
 Console.WriteLine($"Значение переменной booksCount: {booksCount}");
 
+Console.WriteLine();
+Console.WriteLine("Ввод текста");
+ 
+Console.Write("Введите ваше имя и фамилию: ");
+string Name = Console.ReadLine();
+
+Console.Write("Введите название вашей группы: ");
+string Group = Console.ReadLine();
+
+Console.Write("Введите год рождения: ");
+int birthYear = int.Parse(Console.ReadLine());
+
+Console.Write("Введите средний балл: ");
+double averageScore = double.Parse(Console.ReadLine());
+
+Console.Write("Введите Вашу любимую букву: ");
+char favoriteletter = Console.ReadLine()[0];
+
+bool score = averageScore >= 4.0;
+
+Console.WriteLine("\nАнкета");
+Console.WriteLine($"{Name}, группа {Group}");
+Console.WriteLine($"Год рождения:  {birthYear}, в 2030 году будет: {2030 - birthYear}");
+Console.WriteLine($"Средний балл:  {averageScore}");
+Console.WriteLine($"Балл >= 4:     {score}");
+Console.WriteLine($"Любимая буква: {favoriteletter}");
+
+
