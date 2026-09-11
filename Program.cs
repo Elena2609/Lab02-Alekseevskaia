@@ -46,3 +46,15 @@ var fullName = "Смирнова А.С";
 
 Console.WriteLine($"{fullName}, возраст {studentAge}, средний балл {gra}");
 
+Console.WriteLine();
+Console.WriteLine("Ввод текста");
+ 
+Console.Write("Введите ваше имя: ");
+string enteredName = Console.ReadLine();
+
+Console.Write("Введите название вашей группы: ");
+string enteredGroup = Console.ReadLine();
+
+Console.WriteLine($"Здравствуйте, {enteredName} из группы {enteredGroup}!");
+
+
