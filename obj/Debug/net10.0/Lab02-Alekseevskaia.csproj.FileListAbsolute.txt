@@ -1,0 +1,14 @@
+C:\Users\Александр\Documents\Lab02-Alekseevskaia\bin\Debug\net10.0\Lab02-Alekseevskaia.exe
+C:\Users\Александр\Documents\Lab02-Alekseevskaia\bin\Debug\net10.0\Lab02-Alekseevskaia.deps.json
+C:\Users\Александр\Documents\Lab02-Alekseevskaia\bin\Debug\net10.0\Lab02-Alekseevskaia.runtimeconfig.json
+C:\Users\Александр\Documents\Lab02-Alekseevskaia\bin\Debug\net10.0\Lab02-Alekseevskaia.dll
+C:\Users\Александр\Documents\Lab02-Alekseevskaia\bin\Debug\net10.0\Lab02-Alekseevskaia.pdb
+C:\Users\Александр\Documents\Lab02-Alekseevskaia\obj\Debug\net10.0\Lab02-Alekseevskaia.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Александр\Documents\Lab02-Alekseevskaia\obj\Debug\net10.0\Lab02-Alekseevskaia.AssemblyInfoInputs.cache
+C:\Users\Александр\Documents\Lab02-Alekseevskaia\obj\Debug\net10.0\Lab02-Alekseevskaia.AssemblyInfo.cs
+C:\Users\Александр\Documents\Lab02-Alekseevskaia\obj\Debug\net10.0\Lab02-Alekseevskaia.csproj.CoreCompileInputs.cache
+C:\Users\Александр\Documents\Lab02-Alekseevskaia\obj\Debug\net10.0\Lab02-Alekseevskaia.dll
+C:\Users\Александр\Documents\Lab02-Alekseevskaia\obj\Debug\net10.0\refint\Lab02-Alekseevskaia.dll
+C:\Users\Александр\Documents\Lab02-Alekseevskaia\obj\Debug\net10.0\Lab02-Alekseevskaia.pdb
+C:\Users\Александр\Documents\Lab02-Alekseevskaia\obj\Debug\net10.0\Lab02-Alekseevskaia.genruntimeconfig.cache
+C:\Users\Александр\Documents\Lab02-Alekseevskaia\obj\Debug\net10.0\ref\Lab02-Alekseevskaia.dll
