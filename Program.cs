@@ -145,6 +145,24 @@ char firstletter = name[0];
 
 Console.WriteLine($"{surname} {firstletter}.");
 
+//задание 3
+Console.WriteLine();
+Console.Write("Введите целое число: ");
+string inputInt = Console.ReadLine();
+bool intsuccessful = int.TryParse(inputInt, out int intRes);
+
+Console.Write("Введите дробное число: ");
+string inputDouble = Console.ReadLine();
+bool doublesuccess = double.TryParse(inputDouble, out double doubleRes);
+ 
+Console.Write("Введите дату в формате дд.мм.гггг: ");
+string inputDate = Console.ReadLine();
+bool datesuccess = DateTime.TryParse(inputDate, out DateTime dateRes);
+
+Console.WriteLine($"Преобразование целого числа {intsuccessful}: {intRes}");
+Console.WriteLine($"Преобразование дробного числа {doublesuccess}: {doubleRes}");
+Console.WriteLine($"Преобразование даты {datesuccess}: {dateRes}");
+
 
 
 
