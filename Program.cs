@@ -12,12 +12,14 @@ Console.WriteLine($"float:   {float.MinValue} .. {float.MaxValue}");
 Console.WriteLine($"double:  {double.MinValue} .. {double.MaxValue}");
 Console.WriteLine($"decimal: {decimal.MinValue} .. {decimal.MaxValue}");
 
+
 Console.WriteLine();
 Console.WriteLine("Переполнение byte");
 
 byte maxByte = 255;
 byte overflowed = (byte)(maxByte + 1);
 Console.WriteLine($"255 + 1 для byte = {overflowed}");
+
 
 Console.WriteLine();
 Console.WriteLine("char");
@@ -30,6 +32,7 @@ Console.WriteLine($"Код символа '{firstLetter}' в Unicode {charAsNumb
 Console.WriteLine($"Табуляция:\tпосле таба");
 Console.WriteLine($"Перенос:\nпосле переноса");
 
+
 Console.WriteLine();
 Console.WriteLine("decimal против double");
 
@@ -39,6 +42,7 @@ decimal priceDecimal = 0.1m + 0.2m;
 Console.WriteLine($"double: 0.1 + 0.2 = {priceDouble}");
 Console.WriteLine($"decimal: 0.1 + 0.2 = {priceDecimal}");
 
+
 Console.WriteLine();
 Console.WriteLine("var");          
 
@@ -47,6 +51,7 @@ var gra = 4.75;
 var fullName = "Смирнова А.С";
 
 Console.WriteLine($"{fullName}, возраст {studentAge}, средний балл {gra}");
+
 
 Console.WriteLine();
 Console.WriteLine("Ввод текста");
@@ -58,6 +63,7 @@ Console.Write("Введите название вашей группы: ");
 string enteredGroup = Console.ReadLine();
 
 Console.WriteLine($"Здравствуйте, {enteredName} из группы {enteredGroup}!");
+
 
 Console.WriteLine();
 Console.WriteLine("Ввод чисел: Convert и Parse");
@@ -72,6 +78,7 @@ Console.WriteLine($"Convert.ToInt32: {birthYearConvert}");
 Console.WriteLine($"int.Parse:       {birthYearParse}");
 Console.WriteLine($"В 2030 году вам будет: {2030 - birthYearConvert} лет");
 
+
 Console .WriteLine();
 Console .WriteLine("Ввод чисел: TryParse");
 
@@ -82,6 +89,7 @@ bool wasSuccessful = int.TryParse(booksInput, out int booksCount);
 
 Console.WriteLine($"Удалось преобразовать: {wasSuccessful}");
 Console.WriteLine($"Значение переменной booksCount: {booksCount}");
+
 
 Console.WriteLine();
 Console.WriteLine("Ввод текста");
@@ -109,5 +117,37 @@ Console.WriteLine($"Год рождения:  {birthYear}, в 2030 году бу
 Console.WriteLine($"Средний балл:  {averageScore}");
 Console.WriteLine($"Балл >= 4:     {score}");
 Console.WriteLine($"Любимая буква: {favoriteletter}");
+
+//задание1
+
+Console.WriteLine();
+Console.Write("Введите рост в метрах: ");
+double height = double.Parse(Console.ReadLine());
+
+Console.Write("Введите вес в килограммах: ");
+double weight = double.Parse(Console.ReadLine());
+
+double bmi = weight/(height*height);
+
+Console.WriteLine($"ИМТ: {bmi:F2}");
+
+
+//задание2
+
+Console.WriteLine();
+Console.Write("Введите фамилию: ");
+string surname = Console.ReadLine();
+
+Console.Write("Введите имя: ");
+string name = Console.ReadLine();
+
+char firstletter = name[0];
+
+Console.WriteLine($"{surname} {firstletter}.");
+
+
+
+
+
 
 
